@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".views.LoginActivity">
+
+    <TextView
+        android:id="@+id/textInfo"
+        style="@style/info_textviews_header"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/small_height"
+        android:paddingStart="@dimen/padding_average"
+        android:paddingEnd="@dimen/padding_average"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_extra_large"
+        android:text="@string/text_start_info" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textInfo"
+        android:layout_margin="@dimen/margin_small"
+        android:indeterminate="true"
+        android:progressTint="@color/colorAccent"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/layoutInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/margin_large"
+        android:background="@drawable/rectangle"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_large">
+
+        <EditText
+            android:id="@+id/edittextUsername"
+            style="@style/regular_editTexts"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/small_height"
+            android:layout_marginBottom="@dimen/margin_average"
+            android:hint="@string/text_username" />
+
+        <EditText
+            android:id="@+id/edittextPassword"
+            style="@style/regular_editTexts"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/small_height"
+            android:hint="@string/text_password" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/layoutInput"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="@dimen/padding_small"
+        android:background="@drawable/ic_reset" />
+
+
+    <Button
+        android:id="@+id/buttonLogin"
+        style="@style/regular_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/small_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/margin_extra_large"
+        android:gravity="center"
+        android:paddingStart="@dimen/padding_large"
+        android:paddingTop="@dimen/padding_average"
+        android:paddingEnd="@dimen/padding_large"
+        android:paddingBottom="@dimen/padding_average"
+        android:text="@string/text_start_login" />
+
+</RelativeLayout>

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Login MVI</string>
     <string name="text_start_login">Start Login</string>
-    <string name="text_start_info">MVI integration with MVP application using presenter</string>
+    <string name="text_start_info">MVI integration with presenter</string>
     <string name="text_password">Password</string>
     <string name="text_username">Username</string>
     <string name="text_processing_login">Login in progress...</string>

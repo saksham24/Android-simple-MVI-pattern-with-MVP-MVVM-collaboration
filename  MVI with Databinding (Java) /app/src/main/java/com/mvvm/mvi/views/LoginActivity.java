@@ -1,11 +1,11 @@
 package com.mvvm.mvi.views;
 
+import android.os.Bundle;
+import android.view.View;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
-
-import android.os.Bundle;
-import android.view.View;
 
 import com.mvvm.mvi.R;
 import com.mvvm.mvi.databinding.ActivityLoginBinding;
@@ -85,8 +85,4 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 break;
         }
     }
-    public void onClick() {
-
-    }
-
-    }
+}

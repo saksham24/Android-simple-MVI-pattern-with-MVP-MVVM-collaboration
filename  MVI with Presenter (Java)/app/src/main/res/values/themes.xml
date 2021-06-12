@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="LoginTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="regular_buttons">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:background">@drawable/button_bg</item>
+    </style>
+
+    <style name="activity_headers">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/large_font_size</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="info_textviews">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="info_textviews_header">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/extra_large_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="regular_editTexts">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/large_font_size</item>
+        <item name="android:background">@drawable/edittext_bg</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/padding_average</item>
+    </style>
+
+    <style name="regular_layouts">
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+</resources>

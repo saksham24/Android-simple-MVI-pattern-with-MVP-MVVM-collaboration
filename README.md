@@ -1,5 +1,5 @@
 ## What is this repository for :question:
-#### Simple MVI Application with view models, live data, presenter and data binding. Same functionality coded in java/kotlin to explain how MVI pattern can be implemented in different scenarios:
+Simple MVI Application with view models, live data, presenter and data binding. Same functionality coded in java/kotlin to explain how MVI pattern can be implemented in different scenarios:
 
 ## How MVI pattern works :question:
 MVI pattern means Model-View-Intent. This is not very popular among android development and is very closly related to MVP(Model view presenter) and MVVM(Model view view-Model) patterns of android.
